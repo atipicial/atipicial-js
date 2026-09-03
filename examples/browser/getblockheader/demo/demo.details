@@ -1,0 +1,4 @@
+  name: getblockheader
+  description: Returns the corresponding block header information according to the specified script hash. This method builds a custom request and executes it using the atipicial-js RPC query facility.
+  resources:
+    - https://cdn.jsdelivr.net/npm/@atipicial/atipicial-js/dist/browser.min.js

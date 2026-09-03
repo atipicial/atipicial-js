@@ -1,0 +1,4 @@
+name: getaccountstate
+description: Get the account state for a wallet address
+resources:
+  - https://cdn.jsdelivr.net/npm/@atipicial/atipicial-js/dist/browser.min.js

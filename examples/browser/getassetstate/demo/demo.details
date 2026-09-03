@@ -1,0 +1,4 @@
+name: getassetstate
+description: Queries the asset information, based on the specified asset number.
+resources:
+- https://cdn.jsdelivr.net/npm/@atipicial/atipicial-js/dist/browser.min.js

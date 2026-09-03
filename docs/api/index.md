@@ -1,0 +1,58 @@
+---
+id: index
+title: API
+sidebar_position: 1
+---
+
+`atipicial-js` is laid out in a modules style, with each folder in the source code
+representing a module with a particular functionality.
+
+## default
+
+The default import for Atipicial is a Javascript object where functions are arranged
+in a semantic manner following the convention of Verb-Noun. If a method goes
+beyond 2 levels, the rest of the name is camelCased at the noun level.
+
+```js
+import Atipicial from "@atipicial/atipicial-js";
+Atipicial.create.privateKey();
+Atipicial.serialize.tx(transactionObj);
+Atipicial.get.publicKeyFromPrivateKey(privateKey);
+```
+
+This style is recommended for beginners or anyone who just wishes to use Atipicial
+without hassle.
+
+## api
+
+The `api` module contains code that interfaces with external APIs as well as
+providing a high level abstraction.
+
+## wallet
+
+The `wallet` module deals with key manipulating as well as importing and
+exporting of wallet files.
+
+## tx
+
+The `tx` module deals with transaction creation, serialization and
+deserialization.
+
+## sc
+
+The `sc` module deals with smart contract script construction. It is used
+primarily to construct scripts that can be carried by InvocationTransaction.
+
+## rpc
+
+The `rpc` module deals with the RPC interface exposed by the ATC node.
+
+## u
+
+The `u` module is the utilities module containing methods handling the various
+data transformation aspects within ATC.
+
+## CONST
+
+The `CONST` module is a collection of constants and defaults used across all
+modules.

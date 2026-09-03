@@ -1,0 +1,4 @@
+name: getvalidators
+description: Returns the current ATC consensus nodes information and voting status.
+resources:
+  - https://cdn.jsdelivr.net/npm/@atipicial/atipicial-js/dist/browser.min.js

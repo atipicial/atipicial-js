@@ -1,0 +1,4 @@
+name: validateaddress
+description: Verify that the address is a correct ATC address.
+resources:
+  - https://cdn.jsdelivr.net/npm/@atipicial/atipicial-js/dist/browser.min.js

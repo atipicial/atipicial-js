@@ -1,0 +1,4 @@
+name: getversion
+description: Gets version information of this node.
+resources:
+  - https://cdn.jsdelivr.net/npm/@atipicial/atipicial-js/dist/browser.min.js

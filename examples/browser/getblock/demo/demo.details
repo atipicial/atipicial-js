@@ -1,0 +1,4 @@
+name: getblock
+description: Get block data by its hash or index.
+resources:
+  - https://cdn.jsdelivr.net/npm/@atipicial/atipicial-js/dist/browser.min.js

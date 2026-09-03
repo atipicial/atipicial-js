@@ -1,0 +1,4 @@
+name: /Atipicial:v2.9.0/ API Browser Example Index
+description: Press each button to run that example
+resources:
+  - https://cdn.jsdelivr.net/npm/@atipicial/atipicial-js/dist/browser.min.js

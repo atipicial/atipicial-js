@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "include": [],
+  "references": [
+    { "path": "./packages/atipicial-core" },
+    { "path": "./packages/atipicial-api" },
+    { "path": "./packages/atipicial-uri" },
+    { "path": "./packages/atipicial-ledger"},
+    { "path": "./packages/atipicial-js" },
+    { "path": "./packages/atipicial-dapi" }
+  ]
+}
